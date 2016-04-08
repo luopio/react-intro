@@ -3,12 +3,12 @@ var path = require('path');
 
 module.exports = {
   entry: './index.jsx',
-  output: {
-    path: __dirname + '/dist',
-    publicPath: __dirname + '/dist',
-    filename: 'bundle.js'
-  },
-  watch: true,
+  //output: {
+  //  path: __dirname + '/dist',
+  //  publicPath: __dirname + '/dist',
+  //  filename: 'bundle.js'
+  //},
+  //watch: true,
   module: {
     loaders: [
       {
